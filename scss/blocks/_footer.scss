@@ -1,0 +1,184 @@
+.footer {
+    height: 100%;
+    max-height: 377px;
+    background-color: white;
+}
+
+.imgWomen2 {
+    padding-left: 32px;
+    padding-top: 80px; 
+    width: 349px;
+    height: 217px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+
+    .fullLogo2 {
+        display: flex;
+        padding-top: 202px;
+        position: absolute;
+        gap: 8px;
+        letter-spacing: -0.1px;
+        z-index: 1;
+        max-width: 100%;
+        transform: scale(0.97);
+    }
+}
+
+.info2 {
+    position: relative;
+    top: -133px;
+    left: 625px;
+    flex-shrink: 0;
+    z-index: 2;
+    & :nth-child(2) {
+        margin-left: -5px;
+    }
+
+    & :nth-child(3) {
+        margin-left: -5px;
+    }
+}
+
+.textInfo2 {
+    text-decoration: none;
+    color: $color-name;
+    font-family: $fontNameReg;
+    font-size: 14px;
+    margin-right: 21.5px;
+    letter-spacing: -4%;
+}
+
+.snoskainfo2{
+    position: relative;
+    width: 184px;
+    height: 200px;
+    left: 1064px;
+    top: -235px;
+}
+
+.footerIcons {
+    display: flex;
+    gap: 64px;
+}
+
+.facebookIcon {
+    a {
+        position: relative;
+        display: block;
+    }
+    
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: opacity 0.3s ease;
+    }
+    
+    .default-img {
+        opacity: 1;
+        z-index: 1;
+    }
+    
+    .hover-img {
+        opacity: 0;
+        z-index: 2;
+    }
+    
+    &:hover {
+        .default-img {
+            opacity: 0;
+        }
+        
+        .hover-img {
+            opacity: 1;
+        }
+    }
+}
+
+.instaIcon {
+    a {
+        position: relative;
+        display: block;
+    }
+    
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: opacity 0.3s ease;
+    }
+    
+    .default-img {
+        opacity: 1;
+        z-index: 1;
+    }
+    
+    .hover-img {
+        opacity: 0;
+        z-index: 2;
+    }
+    
+    &:hover {
+        .default-img {
+            opacity: 0;
+        }
+        
+        .hover-img {
+            opacity: 1;
+        }
+    }
+}
+
+.YTicon {
+    a {
+        position: relative;
+        display: block;
+    }
+    
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: opacity 0.3s ease;
+    }
+    
+    .default-img {
+        opacity: 1;
+        z-index: 1;
+    }
+    
+    .hover-img {
+        opacity: 0;
+        z-index: 2;
+    }
+    
+    &:hover {
+        .default-img {
+            opacity: 0;
+        }
+        
+        .hover-img {
+            opacity: 1;
+        }
+    }
+}
+
+.phoneNum {
+    font-family: $fontNameReg;
+    color: $color-name;
+    line-height: 24px;
+    font-size: 18px;
+    padding-top: 83.4px;
+}
+
+.adress {
+    font-family: $fontNameReg;
+    color: $color-name;
+    letter-spacing: -2%;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 21px;
+    text-align: left;
+}
